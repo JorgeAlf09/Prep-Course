@@ -1,0 +1,9 @@
+Hola, en esta oportunidad vamos a definir algunos conceptos importantes
+para la programación, ya que es información de vital importancia en el
+mundo de la programción.
+
+Variables: Son datos, no necesariamente fijos, que pueden contener un valor.
+Strings: Es un dato de tipo cadena, que puede ser el nombre de una persona, animal, objeto etc. Puede estar compuesto por letras y números.
+Funciones (argumentos, return): Son las ejecuciones de un procedimiento, que ordenas al momento de digitar. Sea realizar una operación y mostrar un resultado, o por separado.
+Declaraciones If: Sirve para poner una condición, a una función que queremos ejecutar.
+Valores Booleanos: Son un tipo de datos, que posee únicamente 2 resultados que son "verdadero" o "falso".
