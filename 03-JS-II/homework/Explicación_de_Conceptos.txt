@@ -1,0 +1,6 @@
+Conceptos para explicar:
+
+"for" = Es un bucle, cuya función es realizar tareas de forma consecutiva, con condiciones precisas para continuar.
+"&&" = Es un operador logístico, cuya principal labor es incluir expresiones para una función.
+"||" = Es un operador logístico, cuya principal labor es verificar que de dos o más expresiones, sólo se neceista cumplir una función.
+"!" = Es un operador logístico, que se encarga de realizar acción contraria a lo que se requiere, como puede ser igualar, dar verdadero o falso etc.
