@@ -1,0 +1,4 @@
+Arrays: Es un objeto que, a diferencia de lo que es una variable común,
+ésta permite agrupar un conjunto de datos. Ya que en los anteriores casos,
+cada variable sólo contenía un valor, y ahora con los arrays, podrán contener
+más de 1 valor. 
