@@ -16,7 +16,7 @@ const nuevaResta = 10 - 5 === 5;
 const nuevaMultiplicacion = 10 * 4 === 40 ;
 
 // Resuelve el siguiente problema matemático:
-const nuevoModulo = 21 % 5 === 1.05;
+const nuevoModulo = 21 % 5 === 1;
 
 
 // En los próximos 22 problemas, deberás completar la función.
@@ -28,7 +28,6 @@ const nuevoModulo = 21 % 5 === 1.05;
 function devolverString(str) {
   // "Return" la string provista: str
   // Tu código:
-      str = "palabra";
           return str;
 }
 
@@ -175,20 +174,16 @@ function esPositivo(numero) {
   //Si el número es positivo, devolver ---> "Es positivo"
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
-    if (numero==0){
-      return false;
-    }else if (numero>0){
-      alert("Es positivo");
-    }else{
-      alert("Es negativo");
-    }
+    if (numero === 0) return false;
+    if (numero > 0) return "Es positivo";
+    if (numero < 0) return "Es negativo";
 }
 
 function agregarSimboloExclamacion(str) {
   // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
   // Ejemplo: "hello world" pasaría a ser "hello world!"
   // Tu código:
-      return alert(str+"!");
+      return str + "!";
 }
 
 function combinarNombres(nombre, apellido) {
@@ -204,7 +199,7 @@ function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-      return alert("Hola"+nombbre+"!");
+      return "Hola " + nombre + "!";
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
@@ -238,9 +233,7 @@ function deEuroAdolar(euro){
   //Supongamos que 1 euro equivale a 1.20 dólares. Escribe un programa que reciba
   //como parámetro un número de euros y calcule el cambio en dólares.
   //Escribe tu código aquí
-      var cambADolar = euro / 1.20;
-
-      return cambADolar;
+      return euro * 1.20;
 }
 
 
@@ -250,13 +243,9 @@ function esVocal(letra){
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
-      if (letra.length()!=1){
-        alert("Dato incorrecto");
-      }else if(letra==="a"||letra==="e"||letra==="i"||letra==="o"||letra==="u"){
-        alert("Es una vocal");
-      }else{
-        alert("Dato incorrecto");
-      }
+        if (letra.length > 1) return "Dato incorrecto";
+        if(letra === "a"|| letra === "e"|| letra === "i"|| letra === "o"|| letra === "u") return "Es vocal";
+        return "Dato incorrecto";
 }
 
 
