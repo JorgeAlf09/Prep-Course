@@ -1,0 +1,5 @@
+Objetos = Son contenedores de datos que corresponden a una sola cosa, a diferencia de las matrices.
+Propiedades = Son las características que podemos añadir en un objeto.
+Métodos = Se le llama método a la función que se encuentre dentro de un objeto.
+Bucle for...in = Es un bucle, diseñado para recorrer las propiedades de un objeto. A diferencia de un "for" normal, su digitación puede ser más breve.
+Notación de puntos vs Notaciónde de corchetes = En la notación de puntos, sirve para llamar a la propiedad de un objeto. En la notación de corchetes, llamamos a un elemento de una matriz.
